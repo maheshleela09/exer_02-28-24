@@ -1,11 +1,21 @@
-﻿int[] selection_sort_numbers = { 5, 72, 3, 14, 7, 1 };
-Console.WriteLine("Here is the original array that will be used to execute the Selection Sort Algorithm: ");
+﻿/*
+Author: Leelamahesh Chakravarthy Kodi
+Date: 02/28/2024
+Comments: This C# Console Application code is about the
+   Selection Sort Algorithms. Here No input
+   is required for the script and it will execute without 
+   input against one pre-populated arrays. 
+*/
+
+
+int[] selection_sort_numbers = { 5, 72, 3, 14, 7, 1 };
+Console.WriteLine("The array that will be used to execute the Selection Sort Algorithm: ");
 for (int i = 0; i < selection_sort_numbers.Length; i++)
 {
     Console.Write("  " + selection_sort_numbers[i]);
 }
 Console.WriteLine("");
-Console.WriteLine("Here is the array after the execution of the Selection Sort Algorithm: ");
+Console.WriteLine("The array after the execution of the Selection Sort Algorithm: ");
 Selection_Sort(selection_sort_numbers);
 Console.WriteLine("");
 
